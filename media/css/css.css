@@ -1,0 +1,81 @@
+.testimonial-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: #5f7589;
+}
+.testimonial-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+.testimonial-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+.testimonial{ 
+  .testimoial-container{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: #e4ecff;
+    border-radius: 24px;
+    padding: 40px 28px 40px 40px;
+    margin:0 28px 10px 0;
+  }
+  .testimonial-names{
+    text-align: left;
+    font-size: 14px;
+    h4{
+      color: #1b3a57;
+      margin-bottom: 2px;
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 32px;
+    }
+  }
+  .testimonial-content{
+    text-align: left;
+    margin-top:20px;
+  }
+}
+button {
+  position: absolute;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+button:hover {
+    background: #0056b3;
+}
+#prev {
+    left: -40px;
+}
+#next {
+    right: -40px;
+}
+/* Pagination Dots */
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.dot{
+    width: 12px;
+    height: 12px;
+    margin: 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.dot.active {
+    background-color: #007bff;
+    transform: scale(1.2);
+}
